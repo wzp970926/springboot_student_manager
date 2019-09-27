@@ -1,0 +1,9 @@
+
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+      url: jdbc:mysql:///lhp?serverTimezone=UTC
+      username: root
+      password:123
+      driver-class-name: com.mysql.jdbc.Driver
