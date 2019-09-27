@@ -20,7 +20,7 @@ public class StuController {
     @Autowired
     private StuService stuService;
 
-//    学生列表
+//    学生列表的展示
     @RequestMapping("/list")
     public  String list(Model model){
         List<Student> list=stuService.list();
